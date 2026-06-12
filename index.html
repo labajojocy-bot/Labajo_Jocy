@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jocy Labajo Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<nav class="navbar">
+
+    <div class="logo">JL.</div>
+
+    <ul>
+
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">
+        <span class="theme-toggle-track">
+            <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </span>
+        <div class="theme-btn-glow"></div>
+    </button>
+
+</nav>
+
+<section class="hero">
+
+    <div class="hero-copy">
+        <p class="hero-meta">BS INFORMATION TECHNOLOGY STUDENT • DEVELOPER • RESEARCHER</p>
+        <h1>Building intelligent IT solutions through full-stack development, research, and polished design.</h1>
+        <p class="hero-description">I turn academic insight, system analysis, and web engineering into intuitive digital products that solve real problems.</p>
+        <div class="hero-actions">
+            <a href="#about" class="btn">Learn More</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+    </div>
+
+    <aside class="hero-card hero-profile-card">
+        <span class="hero-float-dot dot-1"></span>
+        <span class="hero-float-dot dot-2"></span>
+        <span class="hero-float-dot dot-3"></span>
+        <div class="hero-card-inner">
+            <div class="hero-avatar">
+                <img src="images/profile.jpg" alt="Jocy Labajo">
+            </div>
+            <div class="hero-card-top">
+                <div>
+                    <h2>Jocy Labajo</h2>
+                    <p class="hero-card-title">BS Information Technology Student • Developer • Researcher</p>
+                </div>
+            </div>
+            <div class="hero-info-grid">
+                <div class="hero-info-row">
+                    <span class="hero-label">Location</span>
+                    <span>Purok 5, Fd. Rd. 2, Sto. Tomas, Davao del Norte</span>
+                </div>
+                <div class="hero-info-row">
+                    <span class="hero-label">Contact</span>
+                    <span>09919423730</span>
+                </div>
+                <div class="hero-info-row">
+                    <span class="hero-label">Email</span>
+                    <span>labajo.jocy@dnsc.edu.ph</span>
+                </div>
+                <div class="hero-info-row">
+                    <span class="hero-label">Current School</span>
+                    <span>Davao del Norte State College</span>
+                </div>
+            </div>
+            <div class="hero-stats-grid">
+                <div class="hero-stat">
+                    <strong id="projectCount">0</strong>
+                    <span>Projects</span>
+                </div>
+                <div class="hero-stat">
+                    <strong id="certificateCount">0</strong>
+                    <span>Certificates</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+</section>
+
+<section id="about">
+
+    <h2>About Me</h2>
+    <p class="section-intro about-intro">I’m Jocy Labajo, a BS Information Technology student who builds campus-ready digital solutions with clean design, fast performance, and strong usability.</p>
+
+    <div class="card about-card">
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    I create web systems that feel polished and easy to use — from research dashboards to student tools and responsive campus interfaces.
+                </p>
+                <p>
+                    My work combines practical development with thoughtful design, so every interface supports clear decisions, smooth workflows, and better user experiences.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight"><strong>Campus-ready systems</strong> built to help students, staff, and research teams move faster.</div>
+                    <div class="highlight"><strong>Responsive interfaces</strong> that perform well on phones, tablets, and desktop screens.</div>
+                </div>
+            </div>
+
+            <aside class="about-right-panel">
+                <div class="feature-card">
+                    <h3>How I create value</h3>
+                    <p>I bring design, development, and user insight together to build systems that feel useful, familiar, and dependable for everyday campus work.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Focus areas</h3>
+                    <p>Interface design • Web applications • Accessibility • Research-informed development</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Clear experiences</h3>
+                    <p>Focused on easy navigation, quick tasks, and polished visuals across every interface.</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+</section>
+
+<section id="resume">
+
+    <h2>Resume</h2>
+    <p class="section-intro resume-intro">A crisp, easy-to-scan resume that highlights your work, tools, and learning in one strong visual view.</p>
+
+    <div class="card resume-card resume-landscape animate-on-scroll">
+        <div class="resume-left">
+            <div class="resume-panel resume-summary">
+                <div class="panel-tag">Profile</div>
+                <h3>Building useful digital systems</h3>
+                <p>IT student focused on clear web experiences, smart campus workflows, and strong visual design. I deliver work that is polished, practical, and easy to use.</p>
+            </div>
+            <div class="resume-panel resume-highlights">
+                <div class="panel-tag">Highlights</div>
+                <div class="highlight-grid">
+                    <div>
+                        <strong>Human-centered</strong>
+                        <p>Interfaces that help people finish tasks fast.</p>
+                    </div>
+                    <div>
+                        <strong>Project-ready</strong>
+                        <p>Designs and systems built for real campus use.</p>
+                    </div>
+                    <div>
+                        <strong>Fast delivery</strong>
+                        <p>Clean layouts, better navigation, and clear results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resume-right">
+            <div class="resume-panel resume-tools">
+                <div class="panel-tag">Tools and Technology I use</div>
+                <div class="skill-pill-grid">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Figma</span>
+                    <span>UI Design</span>
+                    <span>Responsive</span>
+                    <span>Accessibility</span>
+                    <span>Canva</span>
+                </div>
+            </div>
+            <div class="resume-panel resume-education">
+                <div class="panel-tag">Education</div>
+                <div class="resume-entry">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p>Davao del Norte State College • 2023 - Present</p>
+                </div>
+                <div class="resume-entry">
+                    <h4>Humanities and Social Sciences</h4>
+                    <p>Sto. Tomas National High School • Senior High • 2021 - 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Featured Projects</h2>
+    <p class="section-intro">A selection of Figma design projects, system interfaces, and website concepts built to showcase visual direction and user experience.</p>
+
+    <div class="projects-grid animate-on-scroll">
+
+        <article class="project-card" tabindex="0" role="button" data-title="Cybersmart Brochure Design" data-description="A Canva brochure created for the Cybersmart system, presenting the platform's mission, core features, and benefits in two connected pages." data-images="images/Brochure canva 1.1.png|images/Brochure- canva 1.2.png">
+            <img src="images/Brochure canva 1.1.png" alt="Cybersmart brochure design">
+            <h3>Cybersmart Brochure Design</h3>
+            <p>A Canva brochure created for the Cybersmart system, presenting the platform's mission, core features, and benefits with polished visual storytelling.</p>
+            <div class="project-badges">
+                <span>Canva</span>
+                <span>Brand Design</span>
+                <span>Presentation</span>
+            </div>
+        </article>
+
+        <article class="project-card" tabindex="0" role="button" data-title="Scholar Capstone Project" data-description="A capstone design for Scholar, showcasing the student portal concept and its key learning support features." data-images="images/Capstone1.1.png|images/Capstone1.2.png|images/Capstone1.3.png">
+            <img src="images/Capstone1.1.png" alt="Scholar capstone project preview">
+            <h3>Scholar Capstone Project</h3>
+            <p>A Scholar system capstone project design that displays the platform’s student portal and key academic support workflows.</p>
+            <div class="project-badges">
+                <span>UI Design</span>
+                <span>Capstone</span>
+                <span>Student Portal</span>
+            </div>
+        </article>
+
+        <article class="project-card" tabindex="0" role="button" data-title="Cybersmart System" data-description="A Cybersmart system project showcasing the core platform interface, navigation, and user experience design." data-images="images/Cybersmart1.2.png|images/Cybersmart1.1.png">
+            <img src="images/Cybersmart1.2.png" alt="Cybersmart login page preview">
+            <h3>Cybersmart System</h3>
+            <p>A visual preview of the Cybersmart platform, highlighting the system’s interface and its key workflow screens.</p>
+            <div class="project-badges">
+                <span>UI/UX</span>
+                <span>System Design</span>
+                <span>Platform</span>
+            </div>
+        </article>
+
+        <article class="project-card" tabindex="0" role="button" data-title="Cybersmart Website" data-description="A Figma-designed official website for Cybersmart, showing the homepage and website branding for the system." data-images="images/Cybersmartwebpage.png">
+            <img src="images/Cybersmartwebpage.png" alt="Cybersmart website preview">
+            <h3>Cybersmart Webpage</h3>
+            <p>An official Cybersmart website design created in Figma to showcase the system’s brand, layout, and user-friendly landing experience.</p>
+            <div class="project-badges">
+                <span>Figma</span>
+                <span>Web Design</span>
+                <span>Branding</span>
+            </div>
+        </article>
+
+        <article class="project-card" tabindex="0" role="button" data-title="Figma Design Collection" data-description="A combined collection of Figma design projects showing multiple interface concepts and screen layouts." data-images="images/Figma1.png|images/Figma2.png|images/Figma3.png|images/Figma4.png">
+            <img src="images/Figma1.png" alt="Figma design collection preview">
+            <h3>Figma Design Collection</h3>
+            <p>A combined Figma design project showcasing multiple screen layouts, user interface concepts, and branding explorations.</p>
+            <div class="project-badges">
+                <span>Figma</span>
+                <span>Design</span>
+                <span>UI/UX</span>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<section id="certificates">
+
+    <h2>Certificate Vault</h2>
+    <p class="section-intro">These certificates highlight my ongoing learning in web development, design, research, and digital tools.</p>
+
+    <div class="certificate-grid animate-on-scroll">
+
+        <article class="certificate-card" tabindex="0" role="button" data-title="Responsive Web Design" data-description="Completed a responsive web design certification focused on modern layout, accessibility, and mobile-first interfaces." data-image="images/cert1.jpg">
+            <img src="images/cert1.jpg" alt="Responsive Web Design Certificate">
+            <h4>Responsive Web Design</h4>
+            <p class="certificate-summary">Modern layout, accessibility, and mobile-first interfaces.</p>
+        </article>
+
+        <article class="certificate-card" tabindex="0" role="button" data-title="Digital Skills Training" data-description="Finished training on digital tools for productivity, team collaboration, and professional workflow management." data-image="images/cert2.jpg">
+            <img src="images/cert2.jpg" alt="Digital Skills Training Certificate">
+            <h4>Digital Skills Training</h4>
+            <p class="certificate-summary">Tool proficiency for productivity, collaboration, and project success.</p>
+        </article>
+
+        <article class="certificate-card" tabindex="0" role="button" data-title="Research Methods" data-description="Earned a research methods badge that covers data collection, analysis, and academic documentation for IT projects." data-image="images/cert3.jpg">
+            <img src="images/cert3.jpg" alt="Research Methods Certificate">
+            <h4>Research Methods Badge</h4>
+            <p class="certificate-summary">Academic research design and practical analysis skills.</p>
+        </article>
+
+        <article class="certificate-card" tabindex="0" role="button" data-title="Project Management" data-description="Completed project management training to plan tasks, coordinate teams, and deliver solutions on schedule." data-image="images/cert4.jpg">
+            <img src="images/cert4.jpg" alt="Project Management Certificate">
+            <h4>Project Management Training</h4>
+            <p class="certificate-summary">Structured planning and teamwork for reliable project delivery.</p>
+        </article>
+
+    </div>
+
+</section>
+
+<div id="certificateModal" class="certificate-modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+    <div class="certificate-modal-content">
+        <button class="certificate-modal-close" aria-label="Close certificate view">×</button>
+        <div class="certificate-modal-info">
+            <span class="modal-tag">Certificate</span>
+            <h3 id="modalTitle">Certificate Title</h3>
+            <p id="modalDescription">Certificate details and overview will appear here when clicked.</p>
+        </div>
+        <div class="certificate-modal-image">
+            <img id="modalImage" src="" alt="Certificate preview">
+        </div>
+    </div>
+</div>
+
+<div id="projectModal" class="project-modal" aria-hidden="true" role="dialog" aria-labelledby="projectModalTitle" aria-modal="true">
+    <div class="project-modal-content">
+        <button id="projectModalClose" class="project-modal-close" aria-label="Close design preview">×</button>
+        <div class="project-modal-info">
+            <span class="modal-tag">Design Preview</span>
+            <h3 id="projectModalTitle">Cybersmart Brochure</h3>
+            <p id="projectModalDescription">A connected two-page brochure design for the Cybersmart system.</p>
+        </div>
+        <div class="project-modal-viewer">
+            <button class="project-modal-nav project-modal-prev" aria-label="Previous image">◀</button>
+            <img id="projectModalImage" src="" alt="Design preview image">
+            <button class="project-modal-nav project-modal-next" aria-label="Next image">▶</button>
+        </div>
+        <div class="project-modal-counter" id="projectModalCounter">0 / 0</div>
+    </div>
+</div>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <div class="contact-grid">
+
+        <div class="card contact-form-card animate-on-scroll">
+            <h3>Send a Message</h3>
+            <p>Send your details and I will respond as soon as possible.</p>
+            <form id="contactForm">
+                <div class="field">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" placeholder="Your name" required>
+                </div>
+                <div class="field">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" placeholder="your@email.com" required>
+                </div>
+                <div class="field">
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contact-subject" placeholder="What's this about?">
+                </div>
+                <div class="field">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Your message..." required></textarea>
+                </div>
+                <button type="submit" class="btn send-btn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="spinner" aria-hidden="true"></span>
+                </button>
+                <div id="contactStatus" class="status" aria-live="polite"></div>
+            </form>
+        </div>
+
+        <div class="contact-side">
+            <div class="card contact-info animate-on-scroll">
+                <h3>Contact Information</h3>
+                <div class="contact-row">
+                    <strong>Email</strong>
+                    <a id="contactEmailLink" href="mailto:labajo.jocy@dnsc.edu.ph">labajo.jocy@dnsc.edu.ph</a>
+                </div>
+                <div class="contact-row">
+                    <strong>Phone</strong>
+                    <span>09919423730</span>
+                </div>
+                <div class="contact-row">
+                    <strong>Location</strong>
+                    <span>Purok 5, Fd. Rd. 2, Sto. Tomas, Davao del Norte</span>
+                </div>
+            </div>
+            <div class="card contact-social animate-on-scroll">
+                <h3>Connect With Me</h3>
+                <div class="social-list">
+                    <a href="https://github.com/labajojocy-bot" target="_blank" rel="noopener" class="social-row">
+                        <span class="social-icon github" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M12 0C5.371 0 0 5.372 0 12c0 5.302 3.438 9.8 8.205 11.387.6.111.82-.261.82-.577 0-.285-.011-1.04-.017-2.042-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.238 1.839 1.238 1.071 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.76-1.605-2.665-.304-5.467-1.333-5.467-5.933 0-1.31.469-2.381 1.235-3.221-.124-.304-.535-1.527.117-3.176 0 0 1.008-.323 3.301 1.23.957-.266 1.984-.399 3.003-.404 1.018.005 2.046.138 3.003.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.649.242 2.872.119 3.176.77.84 1.232 1.911 1.232 3.221 0 4.61-2.807 5.625-5.479 5.922.43.371.813 1.102.813 2.222 0 1.604-.015 2.896-.015 3.293 0 .319.217.694.825.576C20.565 21.796 24 17.298 24 12c0-6.628-5.371-12-12-12Z"/>
+                            </svg>
+                        </span>
+                        <div><strong>GitHub</strong><span>@labajojocy-bot</span></div>
+                    </a>
+                    <a href="https://instagram.com/_datgurl.ceecy" target="_blank" rel="noopener" class="social-row">
+                        <span class="social-icon instagram" aria-hidden="true">
+                            <img src="images/ig.jpg" alt="Instagram logo">
+                        </span>
+                        <div><strong>Instagram</strong><span>@_datgurl.ceecy</span></div>
+                    </a>
+                    <a href="https://facebook.com/Jocy-Alacayde-labajo" target="_blank" rel="noopener" class="social-row">
+                        <span class="social-icon facebook" aria-hidden="true">
+                            <img src="images/fb.jpg" alt="Facebook logo">
+                        </span>
+                        <div><strong>Facebook</strong><span>Jocy Alacayde labajo</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Jocy Labajo — Building modern portfolio experiences.
+</footer>
+
+<script src="script.js"></script>
+
+<!-- Toast for notifications -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
